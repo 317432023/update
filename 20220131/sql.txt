@@ -1,0 +1,4 @@
+﻿insert into lottery_source(id,domain,status,callee,sort_no,timeout) values('gariepinn','http://gariepinn.com',0,'gariepinnCollector',4,8);
+update lottery_source set domain='https://pc0228.com' where id='pc28am';
+
+insert into lottery_source_type(id,lottery_source,lottery_type,status,callee) values('gariepinn-2','gariepinn',2,0,'gariepinnCollector');
